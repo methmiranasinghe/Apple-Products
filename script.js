@@ -105,3 +105,13 @@ const slideshow = () =>{
 }
 //End of Slideshow
 slideshow()
+
+const section3Content =document.querySelector('.section-3-content')
+
+window.addEventListener('scroll', ()=>{
+    if(window.pageYOffset + window.innerHeight >= section3Content.offsetTop + section3Content.offsetHeight/2){/*this property is the length of the webpage that scrolled up  ,inner height-->height of the view port)*/
+        section3Content.classList.add('change')
+    }
+})
+
+
