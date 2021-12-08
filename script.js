@@ -1,3 +1,9 @@
+
+
+
+
+
+
 //Cube
 let x =0
 let y=20
@@ -114,4 +120,17 @@ window.addEventListener('scroll', ()=>{
     }
 })
 
+
+
+// Section 4
+
+const watchBrands =document.querySelector('.watch-brands')
+const watchCases =document.querySelector('.watch-cases')
+
+const watchTopControl =document.querySelector('.watch-top-control')
+const watchRightControl =document.querySelector('.watch-right-control')
+const watchBottomControl =document.querySelector('.watch-bottom-control')
+const watchLeftControl =document.querySelector('.watch-left-control')
+
+// End of Section 4
 
